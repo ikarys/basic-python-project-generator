@@ -8,7 +8,7 @@ install_poetry() {
 
 add_dependencies() {
     echo "Installing following dependentcies : $*"
-    poetry add $*
+    poetry add --dev $*
 }
 
 configure_dependencies() {
