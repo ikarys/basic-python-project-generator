@@ -2,8 +2,15 @@
 
 Initialize a default structure for Python project
 
+## Run
+
+```bash
+bash init_python_project.sh
+```
+
 ## Structure
 
+```
 your-project-name
   |- .flake8
   |- pyproject.toml
@@ -11,6 +18,7 @@ your-project-name
   |- Makefile
   |- README.md
   |- src/
+```
 
 ## Default dependencies
 
